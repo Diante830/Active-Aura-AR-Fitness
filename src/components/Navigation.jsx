@@ -4,7 +4,9 @@ import './Navigation.css';
 
 export default function Navigation() {
   return <>
+  
     <nav>
+      
     <a href="#">
           <img src="./images/logo.svg" alt="Logo" className="logo" />
         </a>
@@ -13,9 +15,8 @@ export default function Navigation() {
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Reviews</a></li>
       </ul>
-      <button class="search">Search</button>
-      <button class="menu">Menu</button>
     </nav>
+    
     
   </>
 }
