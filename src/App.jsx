@@ -16,7 +16,7 @@ function App() {
         <div className="header-container">
         <div class="card text-center mb-3" >
           <div class="card-body">
-            <h5 class="card-title">Get Clarity on your  
+            <h5 class="card-title">no Get Clarity on your  
             Fitness Goals</h5>
             <p class="card-text">Whether you're focused on your fitness goals or improving your form, Active Aura’s AR assistant ensures your workouts are effective, safe, and 
             tailored just for you.</p>
