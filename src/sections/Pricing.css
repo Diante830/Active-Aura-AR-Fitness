@@ -1,9 +1,56 @@
-pricing-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    padding: 50px 0; /* Add vertical padding for spacing */
-    background-color: #7E9CF0;
-    
-  }
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 50px 0;
+  /* Add vertical padding for spacing */
+  background-image: url('/images/pricingbackground.png');
+  background-size: 100% 100%;
+}
+
+.price-card {
+  width: 300px;
+  border: 2px solid #AC7EF0;
+  border-radius: 10px;
+  overflow: hidden; /* Prevents anything from overflowing the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(172, 126, 240, 0.1);
+}
+
+.price-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.545);
+}
+
+.card-top {
+  position: relative;
+  padding: 20px;
+  background-color: rgba(172, 126, 240, 0.1);
+  border-bottom: 1px solid #ddd;
+}
+
+.card-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff5722; /* Bright color for the tag */
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.card-bottom {
+  padding: 20px;
+  background-color: #fff; /* White background for the bottom section */
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.select-button{
+  color:#AC7EF0;
+}

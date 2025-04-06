@@ -1,0 +1,8 @@
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 50px 0; /* Add vertical padding for spacing */
+    background-color: #7E9CF0;
+  }
