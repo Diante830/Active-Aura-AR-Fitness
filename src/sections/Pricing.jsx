@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Pricing.css';
 
 const Pricing = () => {
+  const [] = useState(0);
   return (
     <center>
 
       <div className="pricing-container">
-        <h6>hi</h6>
+        
         <div className="price-card">
         
           {/* Top Section */}

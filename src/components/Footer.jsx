@@ -9,12 +9,13 @@ export default function Footer() {
     <div class="footer-basic">
       <footer class="footer">
         <ul class="list">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" className="footer-links">Terms of Service</a></li>
+        <li><a href="#" className="footer-links">About</a></li>
+        <li><a href="#" className="footer-links">FAQ</a></li>
+        <li><a href="#" className="footer-links">Contact Us</a></li>
+        <li><a href="#" className="footer-links">Privacy Policy</a></li>
       </ul>
-      <p>Copyright &copy; {currentYear} Active Aura AR Fitness Inc. All rights reserved.</p>
+      <p className="copyright">Copyright &copy; {currentYear} Active Aura AR Fitness Inc. All rights reserved.</p>
       </footer>
     </div>
   </>
