@@ -40,8 +40,13 @@ function App() {
       </div>
       </center>
 
+      <div id="features"></div>
+
       <Features />
+
+      <div id="pricing"></div>
       <Pricing />
+      <div id="reviews"></div>
       <Reviews />
       <News />
 

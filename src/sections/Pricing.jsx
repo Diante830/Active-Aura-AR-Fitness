@@ -7,14 +7,13 @@ const Pricing = () => {
     <center>
 
       <div className="pricing-container">
-        
         <div className="price-card">
         
           {/* Top Section */}
           <div className="card-top">
             <div className="card-tag">Starter</div>
             <h2>Start with a <br></br>5-day Free Trial </h2>
-            <p>Enjoy full access to real-time AR form correction, personalized coaching, and premium workout sessions. Designed to help you achieve your fitness goals more effectively, with expert guidance and advanced technology.</p>
+            <p>Enjoy full access to real-time AR form correction, personalized coaching, and premium workout sessions. Designed to help you achieve your fitness goals more effectively, with expert guidance and advanced technology. Unlock your potential with tailored plans and cutting-edge tools </p>
           </div>
 
           {/* Bottom Section */}

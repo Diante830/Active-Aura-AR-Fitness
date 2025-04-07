@@ -66,7 +66,7 @@ const Reviews = () => {
             {reviews.map((review, index) => (
               <div key={index} className="carousel-card">
                 <img src={review.profile} alt={review.name} className="profile-img" />
-                <h3>{review.name}</h3>
+                <h3 className="reviewer-name">{review.name}</h3>
                 <p>"{review.review}"</p>
                 <div className="stars">{renderStars(review.rating)}</div>
               </div>
