@@ -3,10 +3,12 @@
   justify-content: center;
   align-items: center;
   width: 90%;
+  height: 90vh;
   padding: 50px 0;
   /* Add vertical padding for spacing */
   background-image: url('/images/pricingbackground.png');
   background-size: 100% 100%;
+  object-fit: cover;
 }
 
 .pricing-title{
@@ -16,7 +18,9 @@
 }
 
 .price-card {
-  width: 300px;
+  position: relative;
+  width: 350px;
+  height: 490px;
   margin: 20px;
   border: 2px solid #AC7EF0;
   border-radius: 10px;
@@ -33,12 +37,13 @@
 
 .card-top {
   position: relative;
-  padding: 20px;
+  padding: 30px;
   background-color: rgba(172, 126, 240, 0.1);
   border-bottom: 1px solid #AC7EF0;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #fff;
+  
 }
 
 .card-tag {
@@ -60,6 +65,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #fff;
+  text-align: left;
   
 }
 
@@ -67,6 +73,11 @@
   margin-top: 0;
 }
 
-.select-button{
-  color:#AC7EF0;
+h6{
+  position: relative;
+  color:#fff;
+}
+
+.price-header{
+  display:inline;
 }
