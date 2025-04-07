@@ -2,7 +2,10 @@
     text-align: center;
     padding: 40px 20px;
     height: 650px;
+    
 }
+
+
 
 .news-container h1 {
     font-size: 2rem;
@@ -92,12 +95,15 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: #fff;
+    
 }
 
 .stay-updated {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #fff;
+    
+    
 }
 
 .send-message {
@@ -105,4 +111,59 @@
     font-weight: 300;
     color: #fff;
    
+}
+
+@media screen and (max-width: 768px) {
+    .newsletter-form-container {
+        flex-direction: column;
+        padding-top: 0; /* Adjust the top padding to make it more balanced */
+    }
+
+    .newsletter-left {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .newsletter-left h2 {
+        font-size: 2rem; /* Smaller font size for h2 */
+    }
+
+    .newsletter-left p {
+        font-size: 0.9rem; /* Reduce font size on mobile */
+    }
+
+    .newsletter-right {
+        width: 100%; /* Make sure the form section takes full width */
+    }
+
+    .email-input {
+        width: 100%; /* Make the input field responsive */
+        margin-bottom: 10px; /* Add some space below the input field */
+    }
+
+    .subscribe-btn {
+        width: 100%; /* Make the button take the full width */
+        margin-left: 0; /* Remove margin for mobile */
+        margin-top: 10px; /* Add a little space between input and button */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter-left h2 {
+        font-size: 1.8rem; /* Smaller font size on extra small screens */
+    }
+
+    .newsletter-left p {
+        font-size: 0.85rem; /* Further reduce font size */
+    }
+
+    .email-input {
+        font-size: 1rem; /* Adjust input font size */
+        padding: 12px; /* Increase padding for ease of typing */
+    }
+
+    .subscribe-btn {
+        font-size: 1.1rem; /* Increase button font size slightly */
+        padding: 12px; /* Increase padding to make the button easier to tap */
+    }
 }
