@@ -5,7 +5,7 @@ import './Footer.css';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return <>
-
+  
     <div class="footer-basic">
       <footer class="footer">
         <ul class="list">
@@ -18,5 +18,6 @@ export default function Footer() {
       <p className="copyright">Copyright &copy; {currentYear} Active Aura AR Fitness Inc. All rights reserved.</p>
       </footer>
     </div>
+    
   </>
 }

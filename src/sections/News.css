@@ -1,65 +1,79 @@
 .news-container {
     text-align: center;
     padding: 40px 20px;
-  }
-  
-  .news-container h1 {
+    height: 650px;
+}
+
+.news-container h1 {
     font-size: 2rem;
     margin-bottom: 10px;
-  }
-  
-  .news-container h3 {
+}
+
+.news-container h3 {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 20px;
-  }
-  
-  .newsletter-form-container {
+}
+
+.newsletter-form-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px; /* To limit the width of the container */
+    max-width: 1200px;
+    /* To limit the width of the container */
     margin: 0 auto;
-  }
-  
-  .newsletter-left {
+    padding-top: 10%;
+}
+
+.newsletter-left {
     flex: 1;
     margin-right: 20px;
-  }
-  
-  .newsletter-left h2 {
-    font-size: 1.5rem;
+}
+
+.newsletter-left h2 {
+    font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  .newsletter-left p {
+    text-align: left;
+
+}
+
+.newsletter-left p {
     font-size: 1rem;
-    color: #555;
-  }
-  
-  .newsletter-right {
+    color: #fff;
+    text-align: left;
+}
+
+.newsletter-right {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .newsletter-right form {
+    
+    
+}
+
+.newsletter-right form {
     display: flex;
     align-items: center;
     width: 100%;
-  }
-  
-  .email-input {
+    flex-direction: column;
+    
+
+}
+
+.email-input {
     padding: 10px;
     font-size: 1rem;
-    width: 250px;
-    border: 1px solid #ccc;
+    width: 400px;
+    border: 1px solid #342547;
     border-radius: 5px;
-  }
-  
-  .subscribe-btn {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.545);
+    background-color:  rgba(172, 126, 240, 0.1);
+    color: #AC7EF0;
+}
+
+.subscribe-btn {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #007bff;
@@ -68,8 +82,27 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
-  }
-  
-  .subscribe-btn:hover {
+}
+
+.subscribe-btn:hover {
     background-color: #0056b3;
-  }
+}
+
+.sign-up {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.stay-updated {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.send-message {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+   
+}
