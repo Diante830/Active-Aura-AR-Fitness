@@ -3,8 +3,9 @@ import './Navigation.css';
 
 export default function Navigation() {
   return <>
+  <center>
     <nav>
-    <a href="#">
+    <a href="/">
           <img src="./images/logo.svg" alt="Logo" className="logo" />
         </a>
       <ul class="list">
@@ -13,6 +14,7 @@ export default function Navigation() {
         <li><a href="#" className="nav-links">Reviews</a></li>
       </ul>
     </nav>
+    </center>
   </>
 }
 

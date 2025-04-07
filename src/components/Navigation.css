@@ -1,12 +1,13 @@
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
-    width: 85%;
+    width: 90%;
+    height: 8%;
     padding: 16px 20px 30px 20px;
     display: flex;
     align-items: center;
     transition: 0.3s ease-out;
-    background-color: rgba(4, 18, 43, 0.21);
+    background-color: rgba(35, 4, 43, 0.485);
     backdrop-filter: blur(8px) brightness(1.2);
     -webkit-backdrop-filter: blur(8px) brightness(1.2);
     text-shadow: 0 0 5px rgba(31, 4, 43, 0.5);
@@ -14,6 +15,7 @@ nav {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    z-index: 1000;
 
     &.mask {
         top: 150px;

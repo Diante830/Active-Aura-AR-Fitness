@@ -5,6 +5,7 @@ import './App.css';
 import Features from './sections/Features';
 import Pricing from './sections/Pricing';
 import Reviews from './sections/Reviews';
+import News from './sections/News';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -42,15 +43,7 @@ function App() {
       <Features />
       <Pricing />
       <Reviews />
-
-      <div className="container py-4">
-
-        <section id="reviews" className="section">
-          <h2>Reviews</h2>
-          <p>What our users say about the app!</p>
-        </section>
-
-      </div>
+      <News />
 
       <Footer />
 
